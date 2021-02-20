@@ -8,3 +8,7 @@ niveau 2 : [--------------------]<br />
 niveau 3 : [--------------------]<br />
 niveau 4 : [--------------------]<br />
 
+<hr />
+<!-- ne pas effacer les lignes ci-dessus et mettre à jour la progression régulièrement -->
+
+
