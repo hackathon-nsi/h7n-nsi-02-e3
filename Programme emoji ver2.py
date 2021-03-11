@@ -37,11 +37,9 @@ for i in range(len(origine)): # pour le nombre de mots dans notre phrase,
     lettres_mot.append(" ") # ajouter un élément contenant qu'une espace dans la liste "lettres_mot"
     lettres_mot[len(lettres_mot)-1] = origine[i] # dans la liste "lettres_mot", ajouter la lettre qui est à l'indice i de la phrase d'origine
 
-    
+
+       
 fin = "".join(mots_phrase) # coller les éléments dans la liste "mots_phrase" et mettre ce qu'on obtient dans le variable "fin"
-
-
-
 print(fin) # affichage de notre phrase finale 
 
 
