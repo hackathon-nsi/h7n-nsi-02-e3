@@ -13,5 +13,9 @@ niveau 4 : |--------------------|<br />
 
 1ere seance 16/02/2021 :
 creation d'un programme python 
+2eme seance 11/03/2021 :
+le programme phyton termine et documente
+3eme seance 16/03/2021 :
+creation d'un programme javascript
 
 
