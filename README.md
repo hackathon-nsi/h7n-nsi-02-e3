@@ -11,11 +11,12 @@ niveau 4 : |--------------------|<br />
 <hr />
 <!-- ne pas effacer les lignes ci-dessus et mettre à jour la progression régulièrement -->
 
-1ere seance 16/02/2021 :
-creation d'un programme python 
-2eme seance 11/03/2021 :
-le programme phyton termine et documente
-3eme seance 16/03/2021 :
-creation d'un programme javascript
+<br />
+1ere seance 16/02/2021 : <br />
+creation d'un programme python<br />
+2eme seance 11/03/2021 :<br />
+le programme phyton termine et documente<br />
+3eme seance 16/03/2021 :<br />
+creation d'un programme javascript<br />
 
 
