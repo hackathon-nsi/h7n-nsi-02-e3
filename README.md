@@ -26,8 +26,8 @@ La première version du programme du remplacement posté: <br />
 <br />
 
 dic = {"princesse":"\U0001F478"}        &nbsp; &emsp; &emsp; **# creation d'un dictionnaire qui associe un mot a un emoji**<br /> 
-origine = ["princesse", "am", "genius"] &emsp; &emsp; &emsp; &emsp; &emsp; **# chaque mot de la phrase est place dans une liste**<br /> 
-phrase = []                             &emsp; **# creation d'une liste vide ou l'on va placer les mots remplaces**<br />
+origine = ["princesse", "am", "genius"] &emsp; &emsp; **# chaque mot de la phrase est place dans une liste**<br /> 
+phrase = []                             &emsp; &emsp; &emsp; &emsp; &emsp; **# creation d'une liste vide ou l'on va placer les mots remplaces**<br />
 for i in range(len(origine)):           &emsp; **# pour le nombre de mots dans notre phrase**<br /> 
   &ensp; phrase.append(0) <br />
   &ensp; n = origine[i]                 &emsp; **# l'indice n prend le mot d'indice i dans la phrase d'origine**<br />
