@@ -25,17 +25,17 @@ La première version du programme du remplacement posté: <br />
 
 <br />
 
-dic = {"princesse":"\U0001F478"} <br /> 
-origine = ["princesse", "am", "genius"] <br /> 
-phrase = [] <br />
-for i in range(len(origine)): <br /> 
-  &ensp; phrase.append(0) 
-  &ensp; n = origine[i] <br />
-  &ensp; if n in dic: <br />
-    &emsp; phrase[i] = dic[n] <br />
+dic = {"princesse":"\U0001F478"} **# creation d'un dictionnaire qui associe un mot a un emoji**<br /> 
+origine = ["princesse", "am", "genius"] **# chaque mot de la phrase est place dans une liste **<br /> 
+phrase = [] **# creation d'une liste vide ou l'on va placer les mots remplaces**<br />
+for i in range(len(origine)): **# pour le nombre de mots dans notre phrase**<br /> 
+  &ensp; phrase.append(0) <br />
+  &ensp; n = origine[i] **# l'indice n prend le mot d'indice i dans la phrase d'origine**<br />
+  &ensp; if n in dic: **# si le mot d'indice n se trouve dans le dictionnaire**<br />
+    &emsp; phrase[i] = dic[n] **# on remplace notre mot avec l'emoji correspondant**<br />
   &ensp; else: <br />
-    &emsp; phrase[i] = origine[i] <br /> 
-  &ensp; print(phrase[i],end=' ') <br />
+    &emsp; phrase[i] = origine[i] **# si on ne trouve pas d'emoji, on laisse le mot tel qu'il est**<br /> 
+  &ensp; print(phrase[i],end=' ') **# affichage de notre phrase finale **<br />
 
 <br />
 
