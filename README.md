@@ -29,7 +29,7 @@ dic = {"princesse":"\U0001F478"} <br />
 origine = ["princesse", "am", "genius"] <br /> 
 phrase = [] <br />
 for i in range(len(origine)): <br /> 
-  <n />phrase.append(0) 
+  &nbsp phrase.append(0) 
   n = origine[i] <br />
   if n in dic: <br />
     phrase[i] = dic[n] <br />
