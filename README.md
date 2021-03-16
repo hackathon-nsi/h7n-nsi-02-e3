@@ -22,17 +22,20 @@ Discussion sur le programme python: <br />
 
 2eme seance 11/03/2021 :<br />
 La première version du programme du remplacement posté: <br />
-dic = {"princesse":"\U0001F478"} # creation d'un dictionnaire qui associe un mot a un emoji 
-origine = ["princesse", "am", "genius"] # chaque mot de la phrase est place dans une liste 
-phrase = [] # creation d'une liste vide ou l'on va placer les mots remplaces
-for i in range(len(origine)): # pour le nombre de mots dans notre phrase, 
+
+<br />
+
+dic = {"princesse":"\U0001F478"} <br /> 
+origine = ["princesse", "am", "genius"] <br /> 
+phrase = [] <br />
+for i in range(len(origine)): <br /> 
   phrase.append(0) 
-  n = origine[i] # l'indice n prend le mot d'indice i dans la phrase d'origine
-  if n in dic: # si le mot d'indice n se trouve dans le dictionnaire, 
-    phrase[i] = dic[n] # on remplace notre mot avec l'emoji correspondant 
-  else:
-    phrase[i] = origine[i] # si on ne trouve pas d'emoji, on laisse le mot tel qu'il est 
-  print(phrase[i],end=' ') # affichage de notre phrase finale  <br />
+  n = origine[i] <br />
+  if n in dic: <br />
+    phrase[i] = dic[n] <br />
+  else: <br />
+    phrase[i] = origine[i] <br /> 
+  print(phrase[i],end=' ') <br />
 
 <br />
 
