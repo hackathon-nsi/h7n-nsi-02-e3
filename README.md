@@ -14,15 +14,13 @@ niveau 4 : |--------------------|<br />
 <br />
 1ère séance 16/02/2021 : <br />
 1ère heure: Discussion sur le programme python: <br />
--utilisation de dictionnaire proposée. <br />
--recherche du code qui permet que le programme reconnaisse la phrase mot par mot. <br />
--base du programme du remplacement réalisée. <br />
+&emsp; -utilisation de dictionnaire proposée. <br />
+&emsp; -recherche du code qui permet que le programme reconnaisse la phrase mot par mot. <br />
+&emsp; -base du programme du remplacement réalisée. <br />
 
 <br />
 
 2ème heure: La première version du programme qui remplace certains mots par des emojis a été posté: <br />
-
-<br />
 
 ```python
 # création d'un dictionnaire qui associe un mot à un emoji
@@ -57,8 +55,6 @@ for i in range(len(origine)):
 
 2ème séance 9/03/2021 :<br />
 La deuxième version du programme qui permet de recomposer la phrase mot par mot a été posté: <br />
-
-<br />
 
 ```python
 # pour le nombre de mots dans notre phrase "origine":
