@@ -12,40 +12,59 @@ niveau 4 : |--------------------|<br />
 <!-- ne pas effacer les lignes ci-dessus et mettre à jour la progression régulièrement -->
 
 <br />
-1ere seance 16/02/2021 : <br />
-Discussion sur le programme python: <br />
+1ère séance 16/02/2021 : <br />
+1ère heure: Discussion sur le programme python: <br />
 -utilisation de dictionnaire proposée. <br />
 -recherche du code qui permet que le programme reconnaisse la phrase mot par mot. <br />
 -base du programme du remplacement réalisée. <br />
 
 <br />
 
-2eme seance 9/03/2021 :<br />
-La première version du programme du remplacement posté: <br />
-
-<
-
-```python
-dic = {"princesse":"\U0001F478"U+1F478”}
-origine = ["princesse", "is", "genius"]
-phrase = []
-for i in range(len(origine)):
-  phrase.append(0)
-  n = origine[i]
-  if n in dic:
-    phrase[i] = dic[n]
-  else:
-    phrase[i] = origine[i]
-  print(phrase[i],end=' ')
-```
+2ème heure: La première version du programme qui remplace certains mots par des emojis a été posté: <br />
 
 <br />
 
 ```python
-# pour le nombre de mots dans notre phrase "origine"
+# création d'un dictionnaire qui associe un mot à un emoji
+# chaque mot de la phrase est placé dans une liste
+# création d'une liste vide où l'on va placer la phrase après remplacement
+dic = {"princesse":"\U0001F478"} 
+origine = ["princesse", "am", "genius"] 
+phrase = [] 
+
+# pour le nombre de mots dans notre phrase:
+# la liste "phrase" apprend un nouvel élément "0"
+# l'indice n prend le mot d'indice i dans la phrase d'origine
+for i in range(len(origine)):  
+  phrase.append(0) 
+  n = origine[i] 
+  
+  # si le mot d'indice n se trouve dans le dictionnaire:
+  # on remplace notre mot avec l'emoji correspondant 
+  if n in dic:  
+    phrase[i] = dic[n] 
+    
+  # si on ne trouve pas d'emoji: 
+  # on laisse le mot tel qu'il est
+  else:
+    phrase[i] = origine[i] 
+    
+  # affichage de notre phrase finale 
+  print(phrase[i],end=' ') 
+```
+
+<br />
+
+2ème séance 9/03/2021 :<br />
+La deuxième version du programme qui permet de recomposer la phrase mot par mot a été posté: <br />
+
+<br />
+
+```python
+# pour le nombre de mots dans notre phrase "origine":
 for i in range(len(origine)): 
   
-  # si il y a une espace à l'indice i de la phrase, 
+  # si il y a une espace à l'indice i de la phrase:
   # coller les éléments dans la liste "lettres_mot" et mettre ce qu'on obtient dans le variable "x",
   # réinitialiser la liste "lettres_mot",
   # ajouter un élément contenant qu'une espace dans la liste "mots_phrase".
@@ -54,7 +73,7 @@ for i in range(len(origine)):
     lettres_mot = [] 
     mots_phrase.append(" ")    
     
-    # si le mot d'indice x se trouve dans le dictionnaire,
+    # si le mot du variable x se trouve dans le dictionnaire:
     # remplacer notre mot avec l'emoji correspondant.
     if x in dic:  
       mots_phrase[len(mots_phrase)-1] = dic[x] 
@@ -64,7 +83,7 @@ for i in range(len(origine)):
     else:
       mots_phrase[len(mots_phrase)-1] = x 
       
-  # ajouter un élément contenant qu'une espace dans la liste "mots_phrase"    
+    # ajouter un élément contenant qu'une espace dans la liste "mots_phrase"    
     mots_phrase.append(" ") 
     
   # si l'élément à l'indice i de la phrase n'est pas une espace,
@@ -74,6 +93,15 @@ for i in range(len(origine)):
     lettres_mot.append(" ") 
     lettres_mot[len(lettres_mot)-1] = origine[i] 
 ```
+
+<br />
+
+3eme seance 11/03/2021 :<br />
+La deuxième version du programme qui permet de recomposer la phrase mot par mot a été posté: <br />
+
+<br />
+
+
 
 <br />
 
