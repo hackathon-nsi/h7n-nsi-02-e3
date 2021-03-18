@@ -24,7 +24,7 @@ Discussion sur le programme python: <br />
 La première version du programme du remplacement posté: <br />
 
 <br />
-\\\python
+python\\\
 dic = {"princesse":"\U0001F478"}        &emsp; &emsp; **# creation d'un dictionnaire qui associe un mot a un emoji**<br /> 
 origine = ["princesse", "am", "genius"] &emsp; &emsp; **# chaque mot de la phrase est place dans une liste**<br /> 
 phrase = []                             &emsp; &emsp; **# creation d'une liste vide ou l'on va placer les mots remplaces**<br />
