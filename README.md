@@ -93,7 +93,7 @@ for i in range(len(origine)):
 <br />
 
 3eme seance 11/03/2021 :<br />
-La deuxième version du programme qui permet de recomposer la phrase mot par mot a été posté: <br />
+La dernière version du programme qui est une combinaison des deux versions précédentes postée: <br />
 
 <br />
 
