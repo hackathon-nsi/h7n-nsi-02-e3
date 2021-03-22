@@ -27,7 +27,7 @@ niveau 4 : |--------------------|<br />
 # chaque mot de la phrase est placé dans une liste
 # création d'une liste vide où l'on va placer la phrase après remplacement
 dic = {"princesse":"\U0001F478"} 
-origine = ["princesse", "am", "genius"] 
+origine = ["princesse", "is", "genius"] 
 phrase = [] 
 
 # pour le nombre de mots dans notre phrase:
