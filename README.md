@@ -193,8 +193,8 @@ dic = {"PRINCESSE":"\U0001F478", "Princesse":"\U0001F478", "princesse":"\U0001F4
 # pour le nombre de mots dans notre texte:
 for i in range(len(texte)):   
 
- # si il y a une espace à l'indice i du texte:
- if texte[i] == " ":      
+ # si il y a une espace ou retour a la ligne à l'indice i du texte:
+ if texte[i] == " " or texte[i] == "\n":       
     
    # réinitialisation de la liste "lettres_mot"
    lettres_mot = []    
@@ -206,9 +206,17 @@ for i in range(len(texte)):
    # si on ne trouve pas d'emoji, on laisse le mot tel qu'il est
    else:
      mots_phrase.append(mot)
+   
+   # si l'indice i du texte est le retour a la ligne, on ajoute le retour a la ligne a 'mots_phrase'
+   if texte[i] == "\n":
+     mots_phrase.append("\n")
      
-   # ajouter un élément contenant qu'une espace dans la liste "mots_phrase"
-   mots_phrase.append(" ")
+   # sinon, on ajoute un élément contenant qu'une espace dans la liste "mots_phrase"
+   else:
+     mots_phrase.append(" ")
+     
+   # initialisation de la variable 'mot' 
+   mot = ""
  
  # si il y a d'autre chose qu'une espace à l'indice i de la phrase:
  else:
