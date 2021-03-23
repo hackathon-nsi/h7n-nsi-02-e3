@@ -166,6 +166,41 @@ print(fin)
 <br />
 
 4eme seance 16/03/2021 :<br />
-creation d'un programme javascript<br />
+La version final du programme<br />
+```python
+import requests
+reponse = requests.get("https://raw.githubusercontent.com/hackathon-nsi/h7n-nsi-02/main/textes/La%20Princesse%20de%20Cl%C3%A8ves/lpdc-partie1.txt")
+texte = reponse.text
+ 
+lettres_mot = []
+mots_phrase = []
+dic = {"PRINCESSE":"\U0001F478", "Princesse":"\U0001F478", "princesse":"\U0001F478",
+"MADEMOISELLE":"\U0001F467", "Mademoiselle":"\U0001F467", "mademoiselle":"\U0001F467", "Mlle":"\U0001F935",
+"CHEVALIER":"\U0001F40E", "Chevalier":"\U0001F40E", "chevalier":"\U0001F40E",
+"MADAME":"\U0001F469", "Madame":"\U0001F469", "madame":"\U0001F469", "Mme":"\U0001F935",
+"MONSIEUR":"\U0001F935", "Monsieur":"\U0001F935", "monsieur":"\U0001F935", "M.":"\U0001F935", "Mr":"\U0001F935",
+"FRANCE":"\U0001F1EB", "France":"\U0001F1EB", "Fr":"\U0001F1EB",
+"ESPAGNE":"\U0001F1EA", "Espagne":"\U0001F1EA",
+"AMOUREUX":"\U0001F60D", "Amoureux":"\U0001F60D", "amoureux":"\U0001F60D",
+"ROI":"\U0001F934", "Roi":"\U0001F934", "roi":"\U0001F934",
+"FILS":"\U0001F9D1", "Fils":"\U0001F9D1", "fils":"\U0001F9D1"}
+for i in range(len(texte)):   
+ if texte[i] == " ":      
+   lettres_mot = []       
+   if x in dic:
+     mots_phrase.append(dic[x])
+   else:
+     mots_phrase.append(x)
+   mots_phrase.append(" ")
+ else:
+   lettres_mot.append(texte[i])
+   x = "".join(lettres_mot)
+if x in dic:
+ mots_phrase.append(dic[x])
+else:
+ mots_phrase.append(x)
+ 
+print("".join(mots_phrase))
+```
 
 
