@@ -94,6 +94,7 @@ for i in range(len(origine)):
 
 3eme seance 11/03/2021 :<br />
 La troisieme version du programme qui est une combinaison des deux versions précédentes postée: <br />
+Le probleme d'apparition du derneier mot du texte; il ne s'addapte au retour de la ligne<br />
 
 ```python
 # importe la phrase d'origine dans le variable "texte"
