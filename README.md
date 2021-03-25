@@ -178,7 +178,7 @@ Progrés sur l'adaptation du programme python en javascript.<br />
 
 6eme seance 23/03/2021 :<br />
 Progrés sur l'adaptation du programme python en javascript.<br />
-La version finale du programme publié:<br />
+La version finale du programme publiée:<br />
 
 ```python
 # importe la phrase d'origine dans le variable "texte"
