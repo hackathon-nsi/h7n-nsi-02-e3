@@ -236,15 +236,18 @@ for i in range(len(texte)):
    # ajouter un élément contenant qu'une espace dans la liste "lettres_mot"
    # dans la liste "lettres_mot", ajouter la lettre qui est à l'indice i du texte
    lettres_mot.append(texte[i])
-   x = "".join(lettres_mot)
-   
-# si le dernier mot se trouve dans le dictionnaire, on remplace notre mot avec l'emoji correspondant
-if mot in dic:
- mots_phrase.append(dic[mot])
+   mot = "".join(lettres_mot)
 
-# si on ne trouve pas d'emoji, on laisse le mot tel qu'il est, et on ajoute a la liste 'mots_phrase'
-else:
- mots_phrase.append(mot)
+# s'il reste des éléments dans la liste "lettres_mot":
+if lettres_mot != []:
+
+  # si le dernier mot se trouve dans le dictionnaire, on remplace notre mot avec l'emoji correspondant
+  if mot in dic:
+    mots_phrase.append(dic[mot])
+
+  # si on ne trouve pas d'emoji, on laisse le mot tel qu'il est, et on ajoute a la liste 'mots_phrase'
+  else:
+    mots_phrase.append(mot)
  
 # coller les éléments dans la liste "mots_phrase" et afficher 
 print("".join(mots_phrase))
