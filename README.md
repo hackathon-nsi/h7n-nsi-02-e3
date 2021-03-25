@@ -94,7 +94,7 @@ for i in range(len(origine)):
 
 3eme seance 11/03/2021 :<br />
 La troisieme version du programme qui est une combinaison des deux versions précédentes postée: <br />
-Le probleme d'apparition du derneier mot du texte; il ne s'addapte au retour de la ligne<br />
+Le probleme d'apparition du derneier mot du texte; il ne s'addapte au retour de la ligne.<br />
 
 ```python
 # importe la phrase d'origine dans le variable "texte"
@@ -167,7 +167,19 @@ print(fin)
 <br />
 
 4eme seance 16/03/2021 :<br />
-La version final du programme<br />
+Progrés sur l'adaptation du programme python en javascript.<br />
+
+<br />
+
+5eme seance 16/03/2021 :<br />
+Progrés sur l'adaptation du programme python en javascript.<br />
+
+<br />
+
+6eme seance 23/03/2021 :<br />
+Progrés sur l'adaptation du programme python en javascript.<br />
+La version final du programme publié:<br />
+
 ```python
 # importe la phrase d'origine dans le variable "texte"
 import requests
